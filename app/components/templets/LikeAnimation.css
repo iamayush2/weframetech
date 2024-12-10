@@ -1,0 +1,18 @@
+@keyframes likeEffect {
+  0% {
+    transform: scale(1);
+    color: gray;
+  }
+  50% {
+    transform: scale(1.5);
+    color: red;
+  }
+  100% {
+    transform: scale(1);
+    color: red;
+  }
+}
+
+.animate-like {
+  animation: likeEffect 0.5s ease-in-out;
+}

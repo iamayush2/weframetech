@@ -1,0 +1,48 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  font-family: playfair;
+  src: url("./fonts/PlayfairDisplay-VariableFont_wght.ttf");
+}
+.producTtitle {
+  font-family: playfair;
+}
+
+@font-face {
+  font-family: geist;
+  src: url("./fonts/Geist-VariableFont_wght.ttf");
+}
+.cardlowerinfo {
+  font-family: geist;
+}
+.iconsp {
+  font-family: geist;
+}
+
+@font-face {
+  font-family: Cabinet Grotesk;
+  src: url("./fonts/CabinetGrotesk-Medium.otf");
+}
+@font-face {
+  font-family: playfair;
+  src: url("./fonts/PlayfairDisplay-VariableFont_wght.ttf");
+}
+.playfair {
+  font-family: playfair;
+}
+.iconsheading {
+  font-family: Cabinet Grotesk, sans-serif;
+}
+.iconname {
+  font-family: Cabinet Grotesk, sans-serif;
+}
+
+.no-scrollbar {
+  scrollbar-width: none;
+  -ms-overflow-style: none;
+}
+.no-scrollbar::-webkit-scrollbar {
+  display: none;
+}
